@@ -14,7 +14,7 @@ function Hero({ aboutRef }) {
                 <h1 className="text-3xl text-center md:text-4xl">I'm <span className="text-4xl md:text-5xl">Sukh Singh Oberoi</span></h1>
             </div>
             <Avatar>
-                <AvatarImage src="../../public/sukh.jpeg" />
+                <AvatarImage src="./sukh.jpeg" />
                 <AvatarFallback>CN</AvatarFallback>
             </Avatar>
             <Button variant="outline" size="icon" onClick={handleClick}>
