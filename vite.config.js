@@ -10,6 +10,7 @@ export default defineConfig({
   },
   publicDir: 'public',
   plugins: [react()],
+  base: "/Portfolio/",
   resolve: {
     alias: {
       '@/': './',
