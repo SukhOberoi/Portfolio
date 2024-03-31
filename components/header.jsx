@@ -44,18 +44,18 @@ const Header = () => {
 				</header>
 			</div>
 {	!menu &&		<div className="absolute z-20 top-[76px] w-full bg-black">
-			<ul className="flex flex-col items-center md:hidden" onClick={()=>{setMenu(true)}}>
+			<ul className="flex flex-col items-center gap-2 text-center md:hidden" onClick={()=>{setMenu(true)}}>
 							<Link to="/">
-								<li className="p-2">Home</li>
+								<li className="p-2 border-2 border-zinc-500 rounded-lg w-[150px]">Home</li>
 							</Link>
 							<Link to="/Skills">
-								<li className="p-2">Skills</li>
+								<li className="p-2 border-2 border-zinc-500 rounded-lg w-[150px]">Skills</li>
 							</Link>
 							<Link to="/Projects">
-								<li className="p-2">Projects</li>
+								<li className="p-2 border-2 border-zinc-500 rounded-lg w-[150px]">Projects</li>
 							</Link>
 							<Link to="/Extras">
-								<li className="p-2">Extras</li>
+								<li className="p-2 border-2 border-zinc-500 rounded-lg w-[150px]">Extras</li>
 							</Link>
 						</ul>
 			</div>}
