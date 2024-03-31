@@ -6,16 +6,13 @@ import {
 } from "../../components/ui/accordion";
 import CertificateCard from "../../components/CertificateCard.jsx";
 import certs from "../assets/Certs.jsx";
-import { useEffect } from "react";
 
 export default function Skills() {
-  useEffect(()=>{
-    console.log(certs)
-  },[])
+
 	return (
 		<>
 			<Accordion
-				type="multiple"
+				type="single"
 				collapsible
 				className="w-5/6 m-auto max-w-[850px]"
 			>
@@ -33,6 +30,7 @@ export default function Skills() {
 											<li>JavaScript</li>
 											<li>React.js</li>
 											<li>node.js</li>
+											<li>Express</li>
 											<li>Tailwind CSS</li>
 											<li>RESTful APIs</li>
 											<li>Flask</li>
