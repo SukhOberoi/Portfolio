@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Card from "./Card.jsx";
 import BestTimes from "./BestTimes.jsx";
+import { Skeleton } from "./ui/skeleton";
 
 function secondsToHms(seconds) {
 	var hours = Math.floor(seconds / 3600);
@@ -71,16 +72,17 @@ const Monkey = () => {
 			{/* <a href="https://data.typeracer.com/pit/profile?user=ssothegreat&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=ssothegreat" border="0" alt="TypeRacer.com scorecard for user ssothegreat"/></a> */}
 			<h1 className="p-4 text-4xl">Monkeytype Stats</h1>
 			<div className="flex justify-center">
-				{stats && (
+				{stats ? (
 					<Card
 						Heading="Time Spent"
 						cardData={secondsToHms(stats.data.timeTyping)}
 						dataUnit="hours"
-					/>
-				)}
+					/> ):
+					<Skeleton className="w-[165px] h-[120px] rounded-lg" />
+				}
 			</div>
 			<h2 className="p-4 text-3xl">Personal Bests</h2>
-			{best && (
+			{best ? (
 				<div className="flex flex-wrap justify-center gap-3 mx-4">
 					<BestTimes
 						time="15s"
@@ -120,7 +122,14 @@ const Monkey = () => {
 					/>
 				</div>
 				
-			)}
+			):
+				<div className="flex flex-wrap justify-center gap-3 mx-4">
+					<Skeleton className="w-[165px] h-[165px] rounded-lg" />
+					<Skeleton className="w-[165px] h-[165px] rounded-lg" />
+					<Skeleton className="w-[165px] h-[165px] rounded-lg" />
+					<Skeleton className="w-[165px] h-[165px] rounded-lg" />
+				</div>
+			}
 			<p className="my-3 text-zinc-500">
 						Powered by MonkeyType Public API
 					</p>
