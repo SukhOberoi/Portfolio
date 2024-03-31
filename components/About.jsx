@@ -11,7 +11,7 @@ const About = forwardRef((props, ref) => {
             <p className="text-sm md:text-base">
 				Hello 👋 , I'm Sukh, a 2nd-year &lt;BTechCSEStudent
 				/&gt; with a relentless passion for coding and technology. At
-				the age of 9, I kickstarted my journey by creating a blog using
+				the age of 9, I embarked on my journey by creating a blog using
 				WordPress <FontAwesomeIcon icon={faWordpressSimple} />, laying the foundation for my love for web
 				development.
 				</p>
@@ -29,13 +29,6 @@ const About = forwardRef((props, ref) => {
 				Currently, I contribute as a dedicated member of the Coding
 				Ninjas Club SRM, focusing on Web Development <FontAwesomeIcon icon={faLaptopCode} /> Eager to stay
 				ahead of the curve, I am delving into the world of React.js <FontAwesomeIcon icon={faReact} />
-				</p>
-				<p className="text-sm md:text-base">
-				As a proactive problem-solver, I identified a gap in my college
-				experience and crafted a Chrome extension to calculate
-				attendance margins, fixing design flaws in the college portal.
-				This project reflects my dedication to improving user
-				experiences and finding solutions to real-world challenges.
 				</p>
 				<p className="text-sm md:text-base">
 				One of my key strengths is adaptability. While I may initially
