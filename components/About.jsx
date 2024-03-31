@@ -10,7 +10,7 @@ const About = forwardRef((props, ref) => {
             <h2 className="text-3xl text-left md:text-5xl">About Me</h2>
             <p className="text-sm md:text-base">
 				Hello 👋 , I'm Sukh, a 2nd-year &lt;BTechCSEStudent
-				/&gt; with a relentless passion for coding and technology. Since
+				/&gt; with a relentless passion for coding and technology. At
 				the age of 9, I kickstarted my journey by creating a blog using
 				WordPress <FontAwesomeIcon icon={faWordpressSimple} />, laying the foundation for my love for web
 				development.
@@ -22,9 +22,7 @@ const About = forwardRef((props, ref) => {
 				to explore new horizons. Proud Runner-up in{" "}
 				<b><FontAwesomeIcon icon={faGoogle} /> Google India's Code to Learn competition</b> in 2017, where I
 				demonstrated my skills by creating the innovative 'School
-				Assistant' Android app using MIT's App Inventor. This experience
-				fueled my desire to solve real-world problems through
-				technology. These formative experiences laid the foundation for
+				Assistant' Android app using MIT's App Inventor. These formative experiences laid the foundation for
 				my deep-seated curiosity and problem-solving skills.
 				</p>
 				<p className="text-sm md:text-base">
@@ -45,10 +43,6 @@ const About = forwardRef((props, ref) => {
 				showcasing my resilience and ability to stay ahead in the
 				ever-evolving tech landscape.
 				</p>
-				<p className="text-sm md:text-base">
-				Let's connect and explore the endless possibilities at the
-				intersection of technology and innovation!
-            </p>
         </div>
     );
 });
