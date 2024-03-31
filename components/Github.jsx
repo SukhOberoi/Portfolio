@@ -1269,12 +1269,12 @@ export default function Github() {
 						))
 				) : (
 					<div className="flex flex-row flex-wrap gap-4 p-4 place-content-center md:grid-cols-2">
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
-						<Skeleton className="w-[500px] h-[250px] rounded-lg" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
+						<Skeleton className="w-full h-[250px] p-6 rounded-lg md:w-[500px]" />
 					</div>
 				)}
 			</div>
