@@ -8,6 +8,7 @@ import CertificateCard from "../../components/CertificateCard.jsx";
 import AchievementCard from "../../components/AchievementCard";
 import Certs from "../assets/Certs.jsx";
 import Achievements from "../assets/Achievements.jsx";
+import SkillSubAccordion from "../../components/SkillSubAccordian";
 
 export default function Skills() {
 	return (
@@ -22,60 +23,7 @@ export default function Skills() {
 						Skills
 					</AccordionTrigger>
 					<AccordionContent>
-						<div>
-							<Accordion
-								type="multiple"
-								collapsible
-								className="p-4"
-							>
-								<AccordionItem value="item-1">
-									<AccordionTrigger>
-										Web Development
-									</AccordionTrigger>
-									<AccordionContent>
-										<ul className="list-disc list-inside">
-											<li>JavaScript</li>
-											<li>React.js</li>
-											<li>node.js</li>
-											<li>Express</li>
-											<li>Tailwind CSS</li>
-											<li>RESTful APIs</li>
-											<li>Flask</li>
-											<li>HTML/CSS</li>
-										</ul>
-									</AccordionContent>
-								</AccordionItem>
-								<AccordionItem value="item-2">
-									<AccordionTrigger>
-										Languages
-									</AccordionTrigger>
-									<AccordionContent>
-										<ul className="list-disc list-inside">
-											<li>JavaScript</li>
-											<li>Python</li>
-											<li>Java</li>
-											<li>C/C++</li>
-										</ul>
-									</AccordionContent>
-								</AccordionItem>
-								<AccordionItem value="item-3">
-									<AccordionTrigger>
-										Miscellaneous
-									</AccordionTrigger>
-									<AccordionContent>
-										<ul className="list-disc list-inside">
-											<li>MySQL/DBMS</li>
-											<li>Object Oriented Programming</li>
-											<li>Canva</li>
-											<li>
-												Basic Photo and Video Editing
-											</li>
-											<li>Word, Excel, PowerPoint</li>
-										</ul>
-									</AccordionContent>
-								</AccordionItem>
-							</Accordion>
-						</div>
+						{SkillSubAccordion()}
 					</AccordionContent>
 				</AccordionItem>
 				<AccordionItem value="item-2">
