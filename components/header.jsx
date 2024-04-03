@@ -39,7 +39,7 @@ const Header = () => {
 							<Link to="/Extras">
 								<li className="p-2">Extras</li>
 							</Link>
-							<a href="../../sukh-resume.pdf">
+							<a href="./sukh-resume.pdf">
 								<li className="p-2">Resume</li>
 							</a>
 						</ul>
@@ -60,7 +60,7 @@ const Header = () => {
 							<Link to="/Extras">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Extras</li>
 							</Link>
-							<a href="../../sukh-resume.pdf">
+							<a href="./sukh-resume.pdf">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Resume</li>
 							</a>
 						</ul>
