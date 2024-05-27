@@ -1252,6 +1252,7 @@ export default function Github() {
 				{gitData ? (
 					gitData
 						.filter((proj) => proj.fork == false)
+						.filter((proj) => proj.archived == false)
 						.sort((a, b) => {
 							return (
 								new Date(b.pushed_at) - new Date(a.pushed_at)
