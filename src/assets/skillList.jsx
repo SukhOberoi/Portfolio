@@ -10,6 +10,15 @@ const skillList = {
       'Flask',
       'HTML/CSS'
     ],
+    "Machine Learning": [
+      'Pandas',
+      'Numpy',
+      'Scikit-Learn',
+      'Matplotlib',
+      'Deep Learning',
+      'Transformers',
+      'LLMs',
+    ],
     "Languages": [
       'JavaScript',
       'Python',
