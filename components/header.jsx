@@ -54,6 +54,9 @@ const Header = () => {
 							<Link to="/">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Home</li>
 							</Link>
+							<Link to="/Experience">
+								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Experience</li>
+							</Link>
 							<Link to="/Skills">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Skills</li>
 							</Link>
