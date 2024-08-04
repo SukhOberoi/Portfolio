@@ -49,7 +49,7 @@ const Header = () => {
 					</div>
 				</header>
 			</div>
-{	!menu &&		<div className="fixed top-0 z-20 flex items-center justify-center w-full pb-4 bg-black h-dvh md:hidden">
+{	!menu &&		<div className="fixed top-0 z-20 flex items-center justify-center w-full pb-4 bg-black h-dvh md:hidden pt-[80px]">
 			<ul className="flex flex-col items-center gap-2 text-center md:hidden" onClick={()=>{setMenu(true)}}>
 							<Link to="/">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Home</li>

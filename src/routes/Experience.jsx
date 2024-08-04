@@ -5,7 +5,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 const Experience = () => {
 	return (
-		<div className="h-[calc(100dvh-85px)] flex items-center justify-center">
+		<div className="md:h-[calc(100dvh-85px)] flex items-center justify-center">
 			<div className="max-w-[1000px] p-4">
 				<h1 className="mb-2 text-3xl font-bold">
 					Machine Learning and Data Analytics Trainee/Intern
