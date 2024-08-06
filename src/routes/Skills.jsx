@@ -76,7 +76,7 @@ export default function Skills() {
 									BTech - Computer Science
 								</p>
 								2022-2026
-								<br /> SRM University <br /> CGPA: 8.91
+								<br /> SRM University <br /> CGPA: 9.05
 							</li>
 							<li>
 								<p className="text-lg">Schooling (CBSE)</p>
