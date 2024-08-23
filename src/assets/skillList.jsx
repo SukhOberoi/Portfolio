@@ -3,12 +3,14 @@ const skillList = {
     "Web Development": [
       'JavaScript',
       'React.js',
+      'Next.js',
       'node.js',
       'Express',
+      'NoSQL / Firebase',
       'Tailwind CSS',
       'RESTful APIs',
       'Flask',
-      'HTML/CSS'
+      'HTML/CSS',
     ],
     "Machine Learning": [
       'Pandas',
