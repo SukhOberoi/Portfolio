@@ -4,7 +4,7 @@ import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
 
 export default function ProjectCard(props) {
 	return (
-		<div className="grid grid-cols-1 p-6 border-2 rounded-lg shadow-inner border-zinc-500 w-[500px]">
+		<div className="grid grid-cols-1 p-6 border-2 rounded-lg shadow-inner border-zinc-500 w-[500px] bg-black">
 			<h1 className="text-2xl">{props.name}</h1>
 			<p className="text-justify">{props.des}</p>
 

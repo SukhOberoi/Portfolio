@@ -9,7 +9,7 @@ const Header = () => {
 
 	return (
 		<>
-			<div className="sticky top-0 z-30 px-6 pt-6 pb-4 bg-black ">
+			<div className="sticky top-0 z-30 px-6 pt-6 pb-4 ">
 				<header>
 					<div className="flex items-end justify-between">
 						<Link to="/">

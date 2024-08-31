@@ -6,7 +6,7 @@ import ModalImage from "react-modal-image";
 
 export default function CertificateCard(props) {
 	return (
-		<div className="p-6 border-2 rounded-lg shadow-inner border-zinc-500">
+		<div className="p-6 bg-black border-2 rounded-lg shadow-inner border-zinc-500">
 			<h2 className="text-lg"> {props.name} </h2>
 			<p className={props.cred?"":"py-2"}>Issued by: {props.issuer} {props.cred && (
 				<a href={props.cred} target="blank">

@@ -5,7 +5,7 @@ import ModalImage from "react-modal-image";
 
 export default function AchievementCard(props) {
 	return (
-		<div className="p-6 border-2 rounded-lg shadow-inner border-zinc-500">
+		<div className="p-6 bg-black border-2 rounded-lg shadow-inner border-zinc-500">
 			<h2 className="text-lg">{props.Achievement}</h2>
 			<p>{props.Description}</p>
 			{props.Issuer && <p>Issued By: {props.Issuer}</p>}

@@ -1,8 +1,8 @@
 body{
     background-color: #000000;
-    /* background-image: radial-gradient(#212121 20%, transparent 20%), radial-gradient(#212121 20%, transparent 20%);
+    background-image: radial-gradient(#212121 20%, transparent 20%), radial-gradient(#212121 20%, transparent 20%);
     background-position: 0 0, 15px 15px;
-    background-size: 10px 10px; */
+    background-size: 5px 5px;
     color: white;
     /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
     font-family: Lexend,sans-serif;
@@ -26,3 +26,5 @@ body:before {
     content: var(--tw-content);
     --tw-gradient-to: #0094ff var(--tw-gradient-to-position)
 }
+
+
