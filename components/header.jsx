@@ -42,7 +42,7 @@ const Header = () => {
 							<Link to="/Extras">
 								<li className="p-2">Extras</li>
 							</Link>
-							<a href="./sukh-resume.pdf">
+							<a href="https://drive.google.com/file/d/1EIgwYxenSUU7i96cFFTZCjeh0dZBFS7o/view?usp=drive_link" target="_blank">
 								<li className="p-2">Resume</li>
 							</a>
 						</ul>
@@ -66,7 +66,7 @@ const Header = () => {
 							<Link to="/Extras">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Extras</li>
 							</Link>
-							<a href="./sukh-resume.pdf">
+							<a href="https://drive.google.com/file/d/1EIgwYxenSUU7i96cFFTZCjeh0dZBFS7o/view?usp=drive_link" target="_blank">
 								<li className="p-4 border-2 border-zinc-500 rounded-lg w-[250px]">Resume</li>
 							</a>
 						</ul>
