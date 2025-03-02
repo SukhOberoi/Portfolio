@@ -9,7 +9,7 @@ const About = forwardRef((props, ref) => {
         <div className="flex flex-col w-full h-screen gap-3 p-4 m-auto md:w-1/2 place-content-center md:p-0" ref={ref}>
             <h2 className="text-3xl text-left md:text-5xl">About Me</h2>
             <p className="text-sm md:text-base">
-				Hello 👋 , I'm Sukh, a 2nd-year &lt;BTechCSEStudent
+				Hello 👋 , I'm Sukh, a 3rd-year &lt;BTechCSEStudent
 				/&gt; with a relentless passion for coding and technology. At
 				the age of 9, I embarked on my journey by creating a blog using
 				WordPress <FontAwesomeIcon icon={faWordpressSimple} />, laying the foundation for my love for web
