@@ -31,7 +31,7 @@ const BestTimes = (props) => {
         <div className="p-4 border-2 rounded-lg shadow-inner border-zinc-500 w-[165px]">
             <h1 className="text-left">{props.time}</h1>
             <div>
-                <span className="text-6xl">{Math.floor(props.wpm)}</span>
+                <span className="text-6xl">{Math.round(props.wpm)}</span>
                 <span>wpm</span>
             </div>
             <div>
