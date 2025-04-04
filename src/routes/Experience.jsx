@@ -7,16 +7,24 @@ const Experience = () => {
 	return (
 		<div className="md:h-[calc(100dvh-85px)] flex items-center justify-center">
 			<div className="max-w-[1000px] p-4">
-				<h1 className="mb-2 text-3xl font-bold">
-					Machine Learning and Data Analytics Trainee/Intern
-				</h1>
+				<h1 className="mb-2 text-3xl font-bold">Frontend Developer Intern</h1>
+				<p className="text-xl">Orgosys</p>
+				<p className="mb-2 text-lg">02/2025 – Present</p>
+				<div className="text-base">
+					<ul className="pl-5 space-y-2 list-disc">
+						<li>Debugged and optimized a complex React application, improving stability and performance.</li>
+						<li>Built a multi-step form with 20+ dynamic input fields, real-time validation, and server sync, improving form submission accuracy.</li>
+						<li>Containerized the application using Docker to streamline development and deployment.</li>
+					</ul>
+				</div>
+				<div className="h-8"></div>
+				<h1 className="mb-2 text-3xl font-bold">Machine Learning and Data Analytics Trainee/Intern</h1>
 				<p className="text-xl">Cygnet.One</p>
 				<p className="mb-2 text-lg">05/2024 - 07/2024</p>
 				<p className="mb-4 text-lg">Ahmedabad</p>
 				<div className="text-base">
 					<ul className="pl-5 space-y-2 list-disc">
-						<li>
-							Sensor Calibration Data Analysis:
+						<li>Sensor Calibration Data Analysis:
 							<ul className="pl-5 list-disc">
 								<li>Analyzed work pending days, technician, and sensor efficiency.</li>
 								<li>Built a regression model for order completion prediction and integrated data into MongoDB.</li>
@@ -40,13 +48,13 @@ const Experience = () => {
 							</ul>
 						</li>
 					</ul>
-                    <div className="h-4"></div>
-                    <a href="/InternshipLetter.Pdf" target="blank">
-      					<Button variant="outline">
-      						Certificate&nbsp;
-      						<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-      					</Button>
-      				</a>
+					<div className="h-4"></div>
+					<a href="/InternshipLetter.Pdf" target="blank">
+						<Button variant="outline">
+							Certificate&nbsp;
+							<FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+						</Button>
+					</a>
 				</div>
 			</div>
 		</div>
