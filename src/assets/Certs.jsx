@@ -1,5 +1,12 @@
 const Certs = [
     {
+        "Course Name": "AWS Certified Cloud Practitioner",
+        "Issued By": "Amazon Web Services(AWS)",
+        "Issue Date": "April 2025",
+        "Credential Link": "https://www.credly.com/badges/ff478021-fafa-4fa5-b408-7e69bde763cd/public_url",
+        "ImagePath": "./certs/aws.jpg"
+    },
+    {
         "Course Name": "DBMS",
         "Issued By": "Scaler",
         "Issue Date": "Feb 2024",
